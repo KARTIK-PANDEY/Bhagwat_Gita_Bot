@@ -9,6 +9,8 @@ A beautiful, lightweight web chatbot that offers guidance from the Bhagavad Gita
 **Bhagavad Gita Chatbot** is a **web-based conversational assistant** inspired by the timeless wisdom of the *Bhagavad Gita*.  
 It allows users to interact, ask questions about life, duty, peace, and spirituality — and receive verses, translations, and insights directly from the Gita.  
 The chatbot is designed to bring spiritual calmness and ancient wisdom into modern conversations.
+
+
 ## Features
 - Attractive, responsive chat UI (dark/light theme)
 - Bhagavad Gita quotes with English translations
