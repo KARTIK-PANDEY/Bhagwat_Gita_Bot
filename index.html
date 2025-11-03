@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gita Guide • Chat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🕉️</text></svg>">
+  <meta name="description" content="Bhagavad Gita based chatbot that responds with verses and English translation." />
+</head>
+<body>
+  <div class="app">
+    <header class="app__header">
+      <div class="brand">
+        <span class="brand__logo" aria-hidden="true">🕉️</span>
+        <div class="brand__text">
+          <h1>INNER KURUKSHETRA</h1>
+          <p class="subtitle">Wisdom from the Bhagavad Gita</p>
+        </div>
+      </div>
+      <div class="header__actions">
+        <button id="themeToggle" class="icon-btn" title="Toggle theme" aria-label="Toggle theme">🌗</button>
+        <button id="openSettings" class="ghost-btn" title="API settings" aria-haspopup="dialog" aria-controls="settingsModal">Settings</button>
+        <button id="clearChat" class="ghost-btn" title="Clear conversation">Clear</button>
+      </div>
+    </header>
+
+    <main class="chat">
+      <div id="messages" class="messages" aria-live="polite" aria-label="Chat messages"></div>
+      <div id="typing" class="typing hidden">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </div>
+    </main>
+
+    <footer class="composer">
+      <form id="composerForm" class="composer__form" autocomplete="off">
+        <input id="userInput" class="composer__input" type="text" placeholder="Ask for guidance (e.g., dealing with stress, decision making)" aria-label="Your message" />
+        <button class="composer__send" type="submit" title="Send" aria-label="Send">↩︎</button>
+      </form>
+      <p class="fineprint">Responses are selected verses from the Bhagavad Gita with English translation. This tool provides guidance, not professional advice.</p>
+    </footer>
+  </div>
+
+  <div id="settingsModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__dialog">
+      <div class="modal__header">
+        <h2 id="settingsTitle">API Settings</h2>
+        <button class="icon-btn" id="closeSettings" aria-label="Close">✕</button>
+      </div>
+      <div class="modal__body">
+        <label class="field">
+          <span class="field__label">Enable API responses</span>
+          <input type="checkbox" id="apiEnable" />
+        </label>
+        <label class="field">
+          <span class="field__label">API Base URL</span>
+          <input type="text" id="apiBaseUrl" class="field__input" placeholder="https://your-api.example.com/endpoint" />
+        </label>
+        <label class="field">
+          <span class="field__label">API Key</span>
+          <input type="password" id="apiKey" class="field__input" placeholder="Enter API key" />
+        </label>
+        <label class="field">
+          <span class="field__label">Model (optional)</span>
+          <input type="text" id="apiModel" class="field__input" placeholder="e.g., gpt-4o" />
+        </label>
+        <p class="fineprint">The app sends POST with JSON { "query": "...", "model": "..." } and header Authorization: Bearer &lt;API Key&gt;.</p>
+      </div>
+      <div class="modal__footer">
+        <button id="saveSettings" class="composer__send" type="button">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
