@@ -22,6 +22,19 @@ Bhagvat_Gita_ChatBot/
 └─ README.md
 ```
 
+
+## 🧠 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| 💬 Chat Logic | JavaScript (Intent + Keyword Matching) |
+| 🧾 Data Source | `gita_dataset.json` (custom structured JSON) |
+| 🌐 Frontend | HTML, CSS, JS |
+| 🎨 UI Styling | TailwindCSS / Custom minimal design |
+| 🕉️ Content | Bhagavad Gita Verses & Translations |
+
+
+
 ## Prerequisites
 - Any static server (no backend required). Options:
   - Python 3 (built-in `http.server`)
