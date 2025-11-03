@@ -130,6 +130,5 @@ Do not commit sensitive API keys to a public repository. Use the Settings modal 
 🕊️ Author
 
 Kartik Pandey
-🌐 GitHub: @KartikPandeyAI
 
 💬 “Code with Purpose. Live with Awareness.”
