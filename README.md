@@ -135,6 +135,6 @@ KARTIK PANDEY
 🌸 Closing Note
 
 “Set your heart upon your work, but never upon its reward.”
-— Bhagavad Gita 2.47
+— Bhagavad Gita
 
 ✨ May this chatbot spread light, wisdom, and peace in every interaction. ✨
