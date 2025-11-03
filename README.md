@@ -132,7 +132,9 @@ KARTIK PANDEY
 
 💬 “Code with Purpose. Live with Awareness.”
 
-🌸 Closing Note
+
+
+## 🌸 Closing Note
 
 “Set your heart upon your work, but never upon its reward.”
 — Bhagavad Gita
