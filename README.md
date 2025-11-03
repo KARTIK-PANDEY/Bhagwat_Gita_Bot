@@ -4,12 +4,18 @@ A beautiful, lightweight web chatbot that offers guidance from the Bhagavad Gita
 - Relevant Gita verses with English translations (local dataset)
 - Optional external API advice (OpenAI-compatible chat endpoint, e.g., Groq)
 
+## 🌿 Overview
+
+**Bhagavad Gita Chatbot** is a **web-based conversational assistant** inspired by the timeless wisdom of the *Bhagavad Gita*.  
+It allows users to interact, ask questions about life, duty, peace, and spirituality — and receive verses, translations, and insights directly from the Gita.  
+The chatbot is designed to bring spiritual calmness and ancient wisdom into modern conversations.
 ## Features
 - Attractive, responsive chat UI (dark/light theme)
 - Bhagavad Gita quotes with English translations
 - External API integration (Bearer token, OpenAI chat format)
 - Typing indicator, copy response, auto-scroll, local persistence
 - Settings modal to manage API base URL, key, and model
+
 
 ## Project Structure
 ```
