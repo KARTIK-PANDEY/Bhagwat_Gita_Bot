@@ -33,7 +33,7 @@
 
   let verses = [];
   let messages = [];
-  let apiConfig = { enabled: true, baseUrl: 'https://api.groq.com/openai/v1/chat/completions', apiKey: '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', model: 'llama-3.1-70b-versatile' };
+  let apiConfig = { enabled: true, baseUrl: 'https://api.groq.com/openai/v1/chat/completions', apiKey: 'Enter Your API Key Here', model: 'llama-3.1-70b-versatile' };
 
   function saveMessages() {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(messages)); } catch (e) {}
@@ -377,3 +377,4 @@
     // ready
   });
 })();
+
