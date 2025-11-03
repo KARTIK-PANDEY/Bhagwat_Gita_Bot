@@ -126,3 +126,10 @@ Note: Some APIs block browser calls or require CORS; Pages hosting works for sta
 ## Security Note
 Do not commit sensitive API keys to a public repository. Use the Settings modal to store keys locally in your browser, or configure a server-side proxy that injects the key.
 
+
+🕊️ Author
+
+Kartik Pandey
+🌐 GitHub: @KartikPandeyAI
+
+💬 “Code with Purpose. Live with Awareness.”
