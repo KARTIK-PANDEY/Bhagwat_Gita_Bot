@@ -131,3 +131,10 @@ Do not commit sensitive API keys to a public repository. Use the Settings modal 
 KARTIK PANDEY
 
 💬 “Code with Purpose. Live with Awareness.”
+
+🌸 Closing Note
+
+“Set your heart upon your work, but never upon its reward.”
+— Bhagavad Gita 2.47
+
+✨ May this chatbot spread light, wisdom, and peace in every interaction. ✨
